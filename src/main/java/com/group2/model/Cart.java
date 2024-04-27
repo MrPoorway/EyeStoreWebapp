@@ -16,7 +16,7 @@ public class Cart implements Serializable {
         return glasses;
     }
 
-    public void setBook(Glasses glasses) {
+    public void setGlasses(Glasses glasses) {
         this.glasses = glasses;
     }
 
