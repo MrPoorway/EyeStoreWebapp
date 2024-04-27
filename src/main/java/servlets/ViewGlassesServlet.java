@@ -108,7 +108,7 @@ public class ViewGlassesServlet extends HttpServlet {
             button = "<p class=\"btn btn-danger\">Out Of Stock</p>\r\n";
         }
 
-        // Bootstrap card to show the glasses data
+     // Bootstrap card to show the glasses data
         return "<div class=\"card\">\r\n"
                 + "                <div class=\"row card-body\">\r\n"
 				+ "                    <img class=\"col-sm-6\" src=\"" + glasses.getImageUri() + "\" alt=\"Card image cap\">\r\n"				

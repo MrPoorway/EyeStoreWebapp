@@ -4,20 +4,20 @@ import java.io.Serializable;
 
 public class Cart implements Serializable {
 
-    private Glasses book;
+    private Glasses glasses;
     private int quantity;
 
-    public Cart(Glasses book, int quantity) {
-        this.book = book;
+    public Cart(Glasses glasses, int quantity) {
+        this.glasses = glasses;
         this.quantity = quantity;
     }
 
     public Glasses getGlasses() {
-        return book;
+        return glasses;
     }
 
-    public void setBook(Glasses book) {
-        this.book = book;
+    public void setBook(Glasses glasses) {
+        this.glasses = glasses;
     }
 
     public int getQuantity() {
